@@ -1,10 +1,14 @@
-## Python scientifique -- Cartographie
+## Python scientifique
+**Traitement de l'information, cartographie**
 
 Le cours est une introduction ou une remise à niveau à la programmation appliquée à la cartographie, en utilisant le langage Python.
 
 Il se déroule sur cinq jours: à l'exception du dernier, les matinées seront consacrées à des rappels théoriques et des exercices académiques. Les après-midis seront organisées en séances de travaux pratiques pour manipuler les notions acquises.
 
-### Jour 1 -- Les bases du langage
+<img src="./extra/nearside.png" width='200px' height='200px'/> <img src="./extra/stereographic.png" width='200px' height='200px'/>
+
+
+### Jour 1 : Les bases du langage
 
 Tour de table
 
@@ -22,7 +26,7 @@ Tour de table
 
 - Émission de France Culture du [12 avril 2016](https://www.franceculture.fr/emissions/la-fabrique-de-l-histoire/cartes-24-les-cassini-carte-sur-table)
 
-### Jour 2 -- Python scientifique
+### Jour 2 : Python scientifique
 
 **Théorie**
 
@@ -41,7 +45,7 @@ Tour de table
 
 - *Cartes du monde, cartes de France*; manipulation de projections standard (Mercator, Lambert 93) et utilisation tracé de cartes
 
-### Jour 3 -- Programmation orienté objet
+### Jour 3 : Programmation orienté objet
 
 **Théorie**
 
@@ -51,7 +55,7 @@ Tour de table
 
 - *Trajectographie de la station spatiale internationale*
 
-### Jour 4 -- Compléments
+### Jour 4 : Compléments
 
 En fonction de l'avancement et de l'intérêt du groupe pour la séance de la veille, on pourra continuer la séance de travaux pratiques de la veille, préparer la campagne de mesures, et/ou aborder le sujet suivant:
 
@@ -65,9 +69,9 @@ En fonction de l'avancement et de l'intérêt du groupe pour la séance de la ve
 
 - Campagnes de mesures ADS-B
 
-### Jour 5 -- Projet final
+### Jour 5 : Projet final
 
-L'objectif de la journée est de mettre en pratique les connaissances acquises dans le semaine pour mettre en commun les données collectées la veille.
+L'objectif de la journée est de mettre en pratique les connaissances acquises dans le semaine pour mettre en commun les données collectées la veille et en proposer une visualisation.
 
 Il s'agit de tracer un fond de carte avec d'une couleur, les trajectoires des avions qui atterrissent sur les aéroports parisiens d'Orly (ORY/LFPO) et de Charles de Gaulle (CDG/LFPG), et d'une autre, les trajectoires d'avions qui en décollent.
 

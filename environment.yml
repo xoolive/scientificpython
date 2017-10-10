@@ -1,0 +1,22 @@
+name: cartography
+channels:
+    - conda-forge
+dependencies:
+    - python=3.6*
+    - cython
+    - fiona
+    - git
+    - jupyter
+    - matplotlib
+    - numpy
+    - pandas
+    - pyqt=5
+    - scipy
+    - shapely
+    - skyfield
+    - zeep
+    - pip:
+        - descartes
+        - cartopy
+        - git+https://github.com/junzis/pyModeS
+        - git+https://github.com/xoolive/geodesy

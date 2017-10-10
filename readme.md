@@ -7,6 +7,9 @@ Il se déroule sur cinq jours: à l'exception du dernier, les matinées seront c
 
 <img src="./extra/nearside.png" width='200px' height='200px'/> <img src="./extra/stereographic.png" width='200px' height='200px'/>
 
+### Environnement de travail
+
+Lire **impérativement** [cette page](environnement.md).
 
 ### Jour 1 : Les bases du langage
 
@@ -76,3 +79,4 @@ L'objectif de la journée est de mettre en pratique les connaissances acquises d
 Il s'agit de tracer un fond de carte avec d'une couleur, les trajectoires des avions qui atterrissent sur les aéroports parisiens d'Orly (ORY/LFPO) et de Charles de Gaulle (CDG/LFPG), et d'une autre, les trajectoires d'avions qui en décollent.
 
 Dans un premier temps, il s'agira de tracer les données collectées par un groupe, puis une fois cette première carte produite, de faire une deuxième carte avec toutes les données fusionnées.
+

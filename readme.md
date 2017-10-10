@@ -9,7 +9,7 @@ Il se déroule sur cinq jours: à l'exception du dernier, les matinées seront c
 
 ### Environnement de travail
 
-Lire **impérativement** [cette page](environnement.md).
+Lire **impérativement** [cette page](environment.md) avant de lancer Python.
 
 ### Jour 1 : Les bases du langage
 

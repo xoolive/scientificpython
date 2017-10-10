@@ -1,4 +1,4 @@
-Pour les séances de programmation Python, vous pouvez utiliser les machines de l'école ou votre machine.
+Pour les séances de programmation Python, vous pouvez utiliser les machines de l'école ou vos machines personnelles.
 
 ## Machines de l'école
 
@@ -23,12 +23,14 @@ Si des erreurs surviennent à l'installation, contactez le professeur.
 
 ### Utilisation
 
-Sous Linux/Mac OS:
+Vous avez maintenant un environnement identique à celui installé sur les machines de l'école. Pour l'utiliser, entrez **systématiquement** les lignes suivantes dans un terminal :
+
+- sous Linux/Mac OS:
 ```sh
 source activate cartography
 ```
 
-Sous Windows:
+- sous Windows:
 ```sh
 activate cartography
 ```

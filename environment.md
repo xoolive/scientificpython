@@ -2,7 +2,7 @@ Pour les séances de programmation Python, vous pouvez utiliser les machines de 
 
 ## Machines de l'école
 
-Un environnement a été préparé pour vous sur les machines de l'école. Pour l'utiliser, entrez **systématiquement** les lignes suivantes dans un terminal :
+Un environnement complet a été préparé pour vous sur les machines de l'école. Avant d'utiliser Python ou Jupyter, entrez **systématiquement** les lignes suivantes dans un terminal :
 ```sh
 useensta python3
 source activate ~olive/cartography
@@ -12,7 +12,7 @@ source activate ~olive/cartography
 
 ### Installation
 
-Commencez par installer un environnement Anaconda pour votre machine en suivant le lien [suivant](https://www.continuum.io/downloads).
+Commencez par installer un environnement Anaconda pour votre machine.  [lien](https://www.continuum.io/downloads).
 
 Puis, à partir du terminal placé dans le dossier du cours:
 ```sh
@@ -23,7 +23,7 @@ Si des erreurs surviennent à l'installation, contactez le professeur.
 
 ### Utilisation
 
-Vous avez maintenant un environnement identique à celui installé sur les machines de l'école. Pour l'utiliser, entrez **systématiquement** les lignes suivantes dans un terminal :
+Vous avez maintenant un environnement identique à celui installé sur les machines de l'école. Avant d'utiliser Python ou Jupyter, entrez **systématiquement** les lignes suivantes dans un terminal :
 
 - sous Linux/Mac OS:
 ```sh

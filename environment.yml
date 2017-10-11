@@ -3,7 +3,9 @@ channels:
     - conda-forge
 dependencies:
     - python=3.6*
+    - cartopy
     - cython
+    - descartes
     - fiona
     - git
     - jupyter
@@ -16,7 +18,6 @@ dependencies:
     - skyfield
     - zeep
     - pip:
-        - descartes
-        - cartopy
-        - git+https://github.com/junzis/pyModeS
-        - git+https://github.com/xoolive/geodesy
+        - geodesy
+        - extra/pyModeS-1.2.0-py3-none-any.whl
+        - extra/adsb_py-0.1-py3-none-any.whl

@@ -3,7 +3,7 @@
 
 Le cours est une introduction ou une remise à niveau à la programmation appliquée à la cartographie, en utilisant le langage Python.
 
-Il se déroule sur cinq jours: à l'exception du dernier, les matinées seront consacrées à des rappels théoriques et des exercices académiques. Les après-midis seront organisées en séances de travaux pratiques pour manipuler les notions acquises.
+Il se déroule sur cinq jours : à l'exception du dernier, les matinées seront consacrées à des rappels théoriques et des exercices académiques. Les après-midis seront organisés en séances de travaux pratiques pour manipuler les notions acquises.
 
 <img src="./extra/nearside.png" width='200px' height='200px'/> <img src="./extra/stereographic.png" width='200px' height='200px'/>
 

@@ -7,7 +7,6 @@ dependencies:
     - cython
     - descartes
     - fiona
-    - git
     - jupyter
     - matplotlib
     - numpy

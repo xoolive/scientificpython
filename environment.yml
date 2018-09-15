@@ -12,11 +12,12 @@ dependencies:
     - numpy
     - pandas
     - pyqt=5
+    - requests
     - scipy
     - shapely
     - skyfield
     - zeep
     - pip:
         - geodesy
-        - extra/pyModeS-1.2.0-py3-none-any.whl
+        - pyModeS
         - extra/adsb_py-0.1-py3-none-any.whl

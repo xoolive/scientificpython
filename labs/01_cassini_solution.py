@@ -50,10 +50,27 @@ distances["Sig.Nord", "Sig.Sud"] = 7928 + 5 / 6
 # Méridienne de l'Observatoire de 11°58′28″ »
 
 
-with open("data/triangles.txt", "r") as fh:
+with open("data/triangles.txt", "r") as fh:  # fh = open("...", "r")
     cumul = []
-    for i, line in enumerate(fh.readlines()):
-        if i & 3 == 3:
+    i = -1
+    #    for i, line in enumerate(fh.readlines()):
+    for line in fh.readlines():
+        i += 1
+        if i % 4 != 3:
+            city, deg, mn, sec = (
+                line.replace("°", " ")
+                .replace("′", " ")
+                .replace("″", " ")
+                .split()
+            )
+            cumul.append(
+                (
+                    city,
+                    math.pi / 180 * (int(deg) + int(mn) / 60 + int(sec) / 3600),
+                )
+            )
+
+        else:
             (a, alpha), (b, beta), (c, gamma) = cumul
             distances[a, c] = distances[a, b] * math.sin(beta) / math.sin(gamma)
             distances[b, c] = (
@@ -61,12 +78,8 @@ with open("data/triangles.txt", "r") as fh:
             )
 
             cumul.clear()
-            continue
 
-        city, deg, mn, sec = line.split()
-        cumul.append(
-            (city, math.pi / 180 * (int(deg) + int(mn) / 60 + int(sec) / 3600))
-        )
+#        print(i, line.split())
 
 total_distance = 0
 

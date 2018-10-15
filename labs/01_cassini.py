@@ -26,16 +26,16 @@ class Distances(UserDict):
     def __getitem__(self, key):
         """Accès à d[key]"""
         if key[0] > key[1]:
-            return dict.__getitem__(self, (key[1], key[0]))
+            return super().__getitem__((key[1], key[0]))
         else:
-            return dict.__getitem__(self, key)
+            return super().__getitem__(key)
 
     def __setitem__(self, key, item):
         """Assignation de d[key] = item"""
         if key[0] > key[1]:
-            dict.__setitem__(self, (key[1], key[0]), item)
+            super().__setitem__((key[1], key[0]), item)
         else:
-            dict.__setitem__(self, key, item)
+            super().__setitem__(key, item)
 
 
 distances = Distances()

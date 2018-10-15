@@ -2,7 +2,7 @@ name: cartography
 channels:
     - conda-forge
 dependencies:
-    - python=3.6*
+    - python>=3.6
     - cartopy
     - cython
     - descartes
@@ -19,5 +19,3 @@ dependencies:
     - zeep
     - pip:
         - geodesy
-        - pyModeS
-        - extra/adsb_py-0.1-py3-none-any.whl

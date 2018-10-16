@@ -6,3 +6,4 @@
 *.tex
 *.toc
 *.vrb
+_minted-python

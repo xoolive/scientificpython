@@ -18,4 +18,5 @@ dependencies:
     - skyfield
     - zeep
     - pip:
-        - geodesy
+        - traffic
+        - traffic-qtgui
